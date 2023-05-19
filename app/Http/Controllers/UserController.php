@@ -57,7 +57,7 @@ private $request;
         return $this->successResponse($user);
     }
     {
-        return $this->errorResponse('user ID Does Not Exists', Response::HTTP_NOT_FOUND);
+        return $this->errorResponse('ID does not exist', Response::HTTP_NOT_FOUND);
     }
     }
 
